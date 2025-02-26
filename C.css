@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS - Flexbox</title>
+    <style>
+        .container {
+            display: flex; /* Ativa o Flexbox */
+            justify-content: space-between; /* Espaço entre as colunas */
+            gap: 20px; /* Espaço entre as colunas */
+        }
+
+        .coluna {
+            flex: 1; /* Faz as colunas crescerem igualmente */
+            background-color: #f2f2f2; /* Cor de fundo */
+            padding: 20px;
+            border: 1px solid #ccc; /* Borda para as colunas */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coluna">Coluna 1</div>
+        <div class="coluna">Coluna 2</div>
+        <div class="coluna">Coluna 3</div>
+    </div>
+</body>
+</html>
