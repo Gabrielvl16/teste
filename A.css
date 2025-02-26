@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS - Parágrafo</title>
+    <style>
+        p {
+            color: #3498db; /* Cor do texto */
+            font-size: 18px; /* Tamanho da fonte */
+            letter-spacing: 2px; /* Espaçamento entre as letras */
+            line-height: 1.6; /* Altura da linha */
+        }
+    </style>
+</head>
+<body>
+    <p>Este é um parágrafo com estilo aplicado!</p>
+</body>
+</html>
