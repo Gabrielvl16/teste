@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS - Botão</title>
+    <style>
+        button {
+            background-color: #4CAF50; /* Cor de fundo */
+            color: white; /* Cor do texto */
+            padding: 15px 32px; /* Espaçamento interno */
+            border: none; /* Remover borda */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Cursor de mão */
+            font-size: 16px; /* Tamanho da fonte */
+            transition: background-color 0.3s ease; /* Efeito de transição */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <button>Clique aqui</button>
+</body>
+</html>
